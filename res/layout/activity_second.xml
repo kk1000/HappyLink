@@ -1,0 +1,42 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/start"
+    tools:context="com.crazygame.happylink.SecondActivity" >
+
+    <Button
+        android:id="@+id/record"
+        style="@style/button_style"
+        android:layout_width="@dimen/btn_width"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/begin"
+        android:layout_below="@+id/begin"
+        android:layout_marginTop="20dp"
+        android:text="@string/record" />
+
+    <Button
+        android:id="@+id/exit"
+        style="@style/button_style"
+        android:layout_width="@dimen/btn_width"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/record"
+        android:layout_below="@+id/record"
+        android:layout_marginTop="20dp"
+        android:text="@string/exit" />
+
+    <Button
+        android:id="@+id/begin"
+        style="@style/button_style"
+        android:layout_width="@dimen/btn_width"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="54dp"
+        android:text="@string/begin" />
+
+</RelativeLayout>

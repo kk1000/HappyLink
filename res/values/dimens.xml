@@ -1,0 +1,16 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="welcom_size">32px</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="btn_height">8dp</dimen>
+    <dimen name="btn_width">100dp</dimen>
+    <dimen name="font_large">18dp</dimen>
+    <dimen name="record_large">25dp</dimen>
+    <dimen name="score_large">19dp</dimen>
+    <dimen name="recordTextSize">20dp</dimen>
+    <dimen name="main_time_fontsize">14dp</dimen> 
+    <dimen name="main_fontsize">14dp</dimen>
+
+</resources>
